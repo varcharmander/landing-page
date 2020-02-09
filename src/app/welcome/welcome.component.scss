@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &__content {
+  }
+
+  &__location {
+
+  }
+}
